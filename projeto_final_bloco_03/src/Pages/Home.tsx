@@ -4,7 +4,7 @@ function Home() {
 
     <>
    
-      <div className="bg-teal-400 min-h-[90vh]  flex  justify-center h-full">
+      <div className="bg-teal-400 min-h-[75vh]  flex  justify-center h-full">
         <div className="container grid grid-cols-2  text-white"
         >
           <div
