@@ -7,11 +7,11 @@ function Navbar() {
 
         <div className= 'w-full  bg-slate-800   text-white flex justify-center py-4'>
             <div className=" container flex justify-between  ext-lg">
-                <div className= "align-center"> 
+                <div className= "flex align-center"> 
                     <img
                         src="/src/assets/logo.png"
                         alt="Logo"
-                        className='w-1/3'
+                        className='w-1/4'
                     />
                      <div className="text-2xl font-bold align-center">Farmácia Artemísia</div>
                 </div>
