@@ -1,12 +1,10 @@
-import Footer from "../Components/Footer/Footer";
-import Navbar from "../Components/Navbar/Navbar";
 
 function Home() {
   return (
 
     <>
-    <Navbar />
-      <div className=" bg-teal-400  flex  justify-center">
+   
+      <div className="bg-teal-400 min-h-[90vh]  flex  justify-center h-full">
         <div className="container grid grid-cols-2  text-white"
         >
           <div
@@ -28,10 +26,10 @@ function Home() {
             <img
               src="/src/assets/img.png"
               alt="Imagem da Página Home"
-              className="w-2/3" />
+              className="w-200" />
           </div>
         </div>
-        <Footer />
+     
  </>
   );
 }
